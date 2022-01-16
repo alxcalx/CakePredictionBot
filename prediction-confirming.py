@@ -16,7 +16,7 @@ import pandas as pd
 from twilio.rest import Client
 from toolz.itertoolz import count
 
-client = Client("ACdb22c541838ffe7c0d36f8b876aa4d3c", "e18532abebbeb91736ea3614db64ef35")
+client = Client("", "")
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 SERVICE_ACCOUNT_FILE = 'pancakeswap-prediction-google-sheets-api-key.json'
